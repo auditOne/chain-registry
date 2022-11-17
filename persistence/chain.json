@@ -12,7 +12,7 @@
   "key_algos": [
     "secp256k1"
   ],
-  "slip44": 750,
+  "slip44": 118,
   "fees": {
     "fee_tokens": [
       {
@@ -65,6 +65,11 @@
         "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
         "address": "seeds.polkachu.com:15456",
         "provider": "Polkachu"
+      },
+      {
+        "id": "fbf0aa94b512902a249b246ed5763b50df9c0543",
+        "address": "seed.core.persistence.one:26656",
+        "provider": "Persistence"
       }
     ],
     "persistent_peers": [
@@ -188,11 +193,6 @@
     ]
   },
   "explorers": [
-    {
-      "kind": "proprietary",
-      "url": "https://explorer.persistence.one",
-      "tx_page": "https://explorer.persistence.one/transactions/${txHash}"
-    },
     {
       "kind": "mintscan",
       "url": "https://www.mintscan.io/persistence",
